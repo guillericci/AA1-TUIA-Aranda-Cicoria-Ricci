@@ -21,9 +21,29 @@ El notebook principal se encuentra en el archivo `TP-clasificacion-AA1.ipynb` y 
 - **Tratamiento del desbalance**:
   - Aplicación de técnicas como **Oversampling** y **SMOTE**
   - Comparación entre matrices de confusión
+---
+
+### Modelo utilizado
+
+- **Regresión Logística** (`LogisticRegression` de scikit-learn)
 
 ---
 
+### Métricas de evaluación
+
+Se utilizaron las siguientes métricas para evaluar el rendimiento del modelo:
+
+- **Recall**
+- **Precision**
+- **F1 Score**
+
+Además, se visualizó la **matriz de confusión** y la **curva ROC** para evaluar el comportamiento del modelo frente al desbalance de clases.
+
+---
+### Dataset
+El dataset `weatherAUS.csv` que contiene información climática de Australia de los últimos diez años
+
+---
 ### Requisitos para reproducir
 
 Este proyecto fue desarrollado con Python 3.12 y las siguientes bibliotecas principales:
