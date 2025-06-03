@@ -21,6 +21,10 @@ El notebook principal se encuentra en el archivo `TP-clasificacion-AA1.ipynb` y 
 - **Tratamiento del desbalance**:
   - Aplicación de técnicas como **Oversampling** y **SMOTE**
   - Comparación entre matrices de confusión
+- **Modelo Base**:
+- **Optimización de Hiperparámetros**
+- **Explicabilidad**
+- **AutoML**
 ---
 
 ### Modelo utilizado
@@ -46,10 +50,13 @@ El dataset `weatherAUS.csv` que contiene información climática de Australia de
 ---
 ### Requisitos para reproducir
 
-Este proyecto fue desarrollado con Python 3.12 y las siguientes bibliotecas principales:
+Este proyecto fue desarrollado con Python 3.11 y las siguientes bibliotecas principales:
 - `pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`
-- `category_encoders`
+- `category_encoders`: para codificación de variables categóricas
 - `scikit-learn`: para preprocesamiento, modelado y evaluación
 - `imbalanced-learn`: para tratamiento del desbalance (SMOTE, RandomOverSampler)
+- `optuna`: para optimización automática de hiperparámetros
+- `shap`: para interpretación de modelos de machine learning
+- `pycaret`: para automatización del flujo de trabajo de machine learning
 
 ---
