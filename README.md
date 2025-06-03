@@ -21,7 +21,7 @@ El notebook principal se encuentra en el archivo `TP-clasificacion-AA1.ipynb` y 
 - **Tratamiento del desbalance**:
   - Aplicación de técnicas como **Oversampling** y **SMOTE**
   - Comparación entre matrices de confusión
-- **Modelo Base**:
+- **Modelo Base**
 - **Optimización de Hiperparámetros**
 - **Explicabilidad**
 - **AutoML**
